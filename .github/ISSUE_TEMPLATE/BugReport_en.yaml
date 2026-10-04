@@ -47,13 +47,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    attributes:
-      label: Final Suspect Version
-      description: The version of Final Suspect in which the issue occurred. Please do not use meaningless values such as `latest`.
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Error Logs
