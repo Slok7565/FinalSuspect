@@ -1,7 +1,7 @@
 name: "🐛 报告 Bug"
 title: "[Bug] "
 description: 提交问题报告以帮助我们改进。
-labels: ["bug"]
+labels: ["Bug"]
 body:
   - type: checkboxes
     attributes:
@@ -44,13 +44,6 @@ body:
         1. 打开 ...
         2. 点击 ...
         3. 问题复现
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Final Suspect 版本
-      description: 发生问题的 Final Suspect 版本。请勿使用诸如 `latest` 之类的无意义值。
     validations:
       required: true
 
